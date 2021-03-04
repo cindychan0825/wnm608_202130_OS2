@@ -7,6 +7,7 @@
 - http://cindy-chan.com
 - http://cindy-chan.com/aau/wnm608/chan.cindy
 - http://cindy-chan.com/aau/wnm608/chan.cindy/recipes/index.html
+- http://cindy-chan.com/aau/wnm608/chan.cindy/demo/grid.html
 
 
 ### Git commands
