@@ -30,14 +30,21 @@ body {
 /*My Code*/
 
 .article-body{
-   
+
    margin-bottom: 4em;
 }
 .feature{
-   margin-bottom: 5em;
-}
+   padding-left: 1em;
+    padding-right:1em;
+     padding-bottom: 2em;
+   }
 .learn{
    text-align: center;
+}
+.about{
+   padding-left: 1em;
+   padding-right:1em;
+    padding-bottom: 2em;
 }
 button{
 
@@ -60,16 +67,40 @@ h5{
    text-align: center;
    margin-top: 5em;
 }
+
+
+h2{
+   padding-left: 2em;
+   padding:0.7em;
+}
+
+h6{
+   padding-left: 6.5em;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h4{
+   padding-left: 5.3em;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+}
 /*------*/
+
 h1,
 h2,
 h3,
 h4,
-h6 {
+h6, {
    font-family: 'Varela Round', sans-serif;
-   /*margin-left: 3em;
-   margin-bottom: 2em;*/
-}
+   
+   }
+
 
 a {
    color:inherit;
