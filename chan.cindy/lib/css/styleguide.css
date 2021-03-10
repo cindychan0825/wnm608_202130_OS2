@@ -101,6 +101,22 @@ h6, {
    
    }
 
+h1{
+  font-size:1.5em;
+}
+h2{
+  font-size:1.25em;
+}
+h3,
+h4{
+  font-size:1em;
+  margin: 1em 0;
+}
+h5,
+h6{
+  font-size:1em;
+  margin:1em 0;
+}
 
 a {
    color:inherit;
@@ -166,7 +182,60 @@ a:hover {
    padding:0 0.5em;
 }
 
+/* NAV */
+.nav ul,
+.navbar ul {
+   list-style-type:none;
+   margin:0;
+   padding-left:0;
+}
 
+.nav a {
+   display:block;
+   padding:0.2em 0.5em;
+}
+.nav a:hover {
+   background-color:var(--color-main-medium);
+   color:var(--color-white);
+   text-decoration:none;
+}
+
+   .nav.flex ul,
+   .nav.stretch ul {
+      display:flex;
+   }
+
+   .nav.stretch li {
+      flex:1 1 auto;
+      text-align:center;
+   }
+v
+
+
+/* Navbar */
+.navbar {
+   background-color:var(--color-neutral-dark);
+   color:var(--color-white);
+   line-height:var(--header-height);
+}
+.navbar h1 {
+   font-family:var(--font-sans);
+   font-size:1em;
+   margin:0;
+}
+
+.navbar a {
+   display:block;
+   padding:0 0.5em;
+}
+
+
+
+/* Media Image */
+.media-image {
+   max-width:100%;
+   vertical-align:middle;
+}
 
 
 /* VIEW WINDOW */
@@ -181,6 +250,7 @@ a:hover {
 
    height:70vh;
 }
+
 
 
 
@@ -213,6 +283,10 @@ a:hover {
    }
    .card.medium {
       background-color:var(--color-neutral-medium);
+   }
+
+   .card.rainbow {
+      background-image: linear-gradient(130deg, #ff00a2, blue, #00ff99, #ebff00);
    }
 
    .card.flat {
