@@ -6,11 +6,13 @@
 
 
 :root {
-   --color-neutral-light:#e4e2e9;
-   --color-neutral-medium:#8c8894;
-   --color-neutral-dark:#423f4a;
+   --color-neutral-light:#f5d3b0;
+   --color-neutral-medium:#c89969;
+   --color-neutral-dark:#6b4b2a;
    --color-white:#fff;
    --color-black:#111;
+   --color-gray:#61616196;
+   --color-beige:#f5d3b0;
 
 
    --header-height:3rem;
@@ -46,36 +48,73 @@ body {
    padding-right:1em;
     padding-bottom: 2em;
 }
-button{
+.mainbut{
 
-      height: 4em;
+    height: 4em;
     padding-right: 1em;
     padding-left: 1em;
-    background: black;
+    background-color: black;
     color: white;
     font-size: 15px;
     border: black;
     border-radius: 0.2em;
 
 }
+
+.secbut{
+height: 3em;
+    padding-right: 1em;
+    padding-left: 1em;
+    background: #dadada;
+    color: black;
+    font-size: 15px;
+    border: black;
+    border-radius: 5em;
+    width: 8em;
+}
+.thirdbut{
+  height: 3em;
+    background: #ffffff00;
+    color: black;
+    border-color: black;
+    border-radius: 2em;
+    width: 6em;
+}
+
+.smallbut{
+      height: 3em;
+    background: #c89969;
+    color: black;
+    font-size: 14px;
+    border: none;
+    border-radius: 2em;
+    width: 6em;
+}
+
+.smallsecbut{
+  height: 3em;
+    background: #6b4b2a;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 0.3em;
+    width: 6em;
+}
+
 h5{
    font-size: 40px;
    color: black;
-   font-family: 'Darker Grotesque', sans-serif;
-   margin-left:auto;
+ margin-left:auto;
    margin-right:auto;
    text-align: center;
    margin-top: 5em;
 }
 
 
-h2{
-   padding-left: 2em;
-   padding:0.7em;
-}
+
 
 h6{
-   padding-left: 6.5em;
+
     font-size: 20px;
     margin: 0;
     padding-top: 1em;
@@ -83,7 +122,7 @@ h6{
 }
 
 h4{
-   padding-left: 5.3em;
+
     font-size: 20px;
     margin: 0;
     padding-top: 1em;
@@ -92,30 +131,32 @@ h4{
 }
 /*------*/
 
-h1,
-h2,
-h3,
-h4,
-h6, {
-   font-family: 'Varela Round', sans-serif;
-   
-   }
+
 
 h1{
-  font-size:1.5em;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2em;
+  text-align: left;
 }
+
 h2{
-  font-size:1.25em;
+  font-size:1.5em;
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
 }
 h3,
 h4{
-  font-size:1em;
-  margin: 1em 0;
+  font-size:1.25em;
+  margin: 1.25em 0;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
 }
 h5,
 h6{
   font-size:1em;
   margin:1em 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
 }
 
 a {
@@ -196,7 +237,7 @@ a:hover {
 }
 .nav a:hover {
    background-color:var(--color-main-medium);
-   color:var(--color-white);
+   color:var(--color-beige);
    text-decoration:none;
 }
 
@@ -251,9 +292,11 @@ v
    height:70vh;
 }
 
-
-
-
+/* font choice 
+font-family: 'Montserrat', sans-serif; reguar400
+font-family: 'Poppins', sans-serif; light300
+font-family: 'Work Sans', sans-serif; reguar400 semi-bold600
+*/
 
 
 
